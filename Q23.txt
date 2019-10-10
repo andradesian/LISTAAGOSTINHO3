@@ -1,0 +1,28 @@
+#include<string.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int funcao(){
+
+  char frase[70];
+ int tamanho=0,i=0,red=0;
+
+    puts("Digite uma frase"); 
+    fgets(frase,70,stdin); 
+
+for(i=0;i<70;i++){  
+
+  if(frase[i]==32){ 
+        red++;  
+  }
+}
+tamanho=strlen(frase)-1; 
+
+puts("numero de caracteres =");
+printf("%d\nnumero de palavras = %d",tamanho-red,red+1); 
+}
+int main(){
+   
+   funcao();
+   return 0;
+}

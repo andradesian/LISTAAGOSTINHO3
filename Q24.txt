@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+
+int funcao(){
+
+ int x=0,i=0;
+ char frase[100];
+
+  puts("Digite uma frase \n\n");
+   gets(frase);
+
+ x= strlen (frase);
+  
+puts(frase);
+
+ for(i=x;i>=0;i--){
+
+	printf("%c",frase[i]);
+ 
+} 
+
+}
+
+int main(void) {
+
+  funcao ();
+
+
+  return 0;
+}

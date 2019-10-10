@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int funcao(){
+  //
+   int c, f;
+    printf("Digite a temperatura em Celsius: ");
+    scanf("%d", &c);
+    f=(9*c+160)/5;
+    printf("Convertendo para Fahrenheit: %d\n", f);
+//
+}
+int main(){
+   
+   funcao();
+   return 0;
+}
