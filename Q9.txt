@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int funcao(){
+  //
+      int i=13, divisor=0, media=0, z;
+    while(i<73){
+        if(i%2==0){
+            media=media+i;
+          divisor++;
+        }
+        i++;
+    }
+    z=media/divisor;
+    printf("%d\n", z);
+//
+}
+int main(){
+   
+   funcao();
+}
