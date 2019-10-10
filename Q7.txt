@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int funcao(){
+  //
+     int i=1, x, z;
+    printf("Tabuada de 4 :\n");
+    x=4;
+    while(i<=10){
+        z=x*i;
+        printf("%d x %d = %d\n",x, i, z);
+        i++;
+    }    
+//
+}
+int main(){
+   
+   funcao();
+}
