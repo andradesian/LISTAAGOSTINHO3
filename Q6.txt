@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int funcao(){
+  //
+   int i=0, l;
+    printf("Digite um numero: ");
+    scanf("%d", &l);
+    while(i<l){
+        if(i*i>l){
+            printf("%d ao quadrado eh maior que %d \n", i, l);
+            return 0;
+        }
+        else {
+            i++;
+        }
+    }
+    }
+//
+int main(){
+   
+   funcao();
+}
