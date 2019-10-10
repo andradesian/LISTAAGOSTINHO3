@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int funcao(){
+  //
+   int i=1, x, h;
+    printf("Digite um numero: ");
+    scanf("%d", &x);
+    printf("O fatorial de ");
+    printf("%d ", x);
+    printf("eh: ");
+    h=1;
+    while(i<=x){
+        h=h*i;
+        i++;
+    }
+    printf("%d\n", h);
+    }
+//
+int main(){
+   
+   funcao();
+}
